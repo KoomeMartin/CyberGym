@@ -20,7 +20,7 @@
   // Runtime configuration
   program: {
     // Docker image for the Cybersecurity Agent
-    image: "ghcr.io/rdi-foundation/cybersecurity-agent:latest",
+    image: "ghcr.io/koomemartin/cybergym:latest",
     entrypoint: "python src/server.py --host 0.0.0.0 --port 9009",
 
     // Environment variables
